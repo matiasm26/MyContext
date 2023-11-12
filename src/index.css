@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: 'Courier New', Courier, monospace;
+  color: #48b9b9;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background: #48b9b9;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.bodyCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.boxHeart {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
